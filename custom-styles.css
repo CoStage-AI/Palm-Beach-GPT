@@ -1,0 +1,29 @@
+/* custom-styles.css */
+/* Customize chat window background color */
+.vfrc-chat {
+    /* background-color: #e03232; /* Change background color of the chat window */
+}
+
+/* Customize chat message colors */
+/* .vfrc-message {
+    background-color: #d57b7b; /* Change background color of chat messages 
+    color: #333; /* Change text color of chat messages 
+} */
+
+/* Customize user message colors */
+/* .vfrc-user-response .vfrc-message {
+    background-color: #eaf2ff; /* Change background color for user messages 
+    color: #007bff; /* Change text color for user messages 
+} */
+
+/* Make chat message boxes more round */
+.vfrc-message {
+    border-radius: 20px;
+}
+
+/* Set background image for the chat using .vfrc-image--background */
+.voiceflow-chat {
+    background-image: url('background-dotted.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

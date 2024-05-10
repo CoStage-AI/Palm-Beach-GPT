@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", user-scalable=no>
+    <title>Palm Beach GPT</title>
+    <link rel="icon" type="image/jpg" href="PalmBeachRealEstate.jpg">
+    <style>
+        html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrolling */
+}
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+        (function(d, t) {
+            var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+            v.onload = function() {
+              window.voiceflow.chat.load({
+                verify: { projectID: '663a1604898d323192d766f5' },
+                url: 'https://general-runtime.voiceflow.com',
+                versionID: 'production',
+                   render: {
+                        mode: 'embedded',
+                        target: document.body,
+                    },
+                    autostart: false,
+                    assistant: {
+                        title: "CoStage Real Estate",
+                        description: "Your AI Real Estate Agent!",
+                        image: "PalmBeachRealEstate.jpg",
+                        // color: "string",
+                        stylesheet: "custom-styles.css" //link to your self-hosted stylesheet
+                    } 
+              });
+            }
+            v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+        })(document, 'script');
+      </script>
+</body>
+</html>
